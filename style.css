@@ -1,1 +1,14 @@
+.title{
+    font-family: Work Sans;
+    font-size: 200px;
+}
 
+.dimitri-image{
+    width: 400px;
+}
+
+.languages-title,
+.languages-list{
+    font-family: Work Sans;
+    font-weight: 400;
+}
