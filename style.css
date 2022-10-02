@@ -1,10 +1,31 @@
+.div-title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: lightblue;
+}
+
+.title-text{
+    display: block;
+}
+
 .title{
     font-family: Work Sans;
-    font-size: 200px;
+    font-size: 100px;
+    padding-left: 10px;
+}
+
+.title-image{
+    display: block; 
+    overflow: hidden;   
 }
 
 .dimitri-image{
-    width: 400px;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    object-fit: cover;
+    object-position: center;
 }
 
 .languages-title,
