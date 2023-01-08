@@ -6,7 +6,7 @@
 }
 
 .title-text{
-    display: block;
+    display: inline-flex;
 }
 
 .title{
@@ -16,20 +16,33 @@
 }
 
 .title-image{
-    display: block; 
+    display: inline; 
     overflow: hidden;   
 }
 
 .dimitri-image{
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
     border-radius: 100%;
+    margin-left: 10px;
     object-fit: cover;
     object-position: center;
 }
 
-.languages-title,
-.languages-list{
+.languages-list,
+.languages-title{
     font-family: Work Sans;
-    font-weight: 400;
+    font-weight: 400, 300;
+    color: rgba(0, 0, 0, 0.9);
+}
+
+ul{
+    font-family: Work Sans;
+}
+
+p{
+    font-family: Work Sans;
+    font-weight: 700;
+    color: rgba(0, 0, 0, 0.9);
+
 }
